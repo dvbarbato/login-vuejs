@@ -1,6 +1,6 @@
 # Challenge hcode
 
-## Objetive: 
+## Objective: 
 Create a login screen with Vue.js
 
 ## Tasks:

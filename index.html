@@ -22,7 +22,7 @@
         </style>
     </head>
     <body class="hold-transition login-page">
-        <div class="login-box">
+        <div class="login-box" id="app">
             <div class="login-logo">
                 <a href="#">
                     <b>Hcode Treinamentos</b>
@@ -138,6 +138,17 @@
         <script src="./assets/plugins/jquery/jquery.min.js"></script>
         <script src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="./assets/dist/js/adminlte.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+        <script>
+
+          let app = new Vue ({
+            el: '#app'
+          })
+
+        </script>
+
 
     </body>
 </html>
